@@ -4,5 +4,5 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps: 
-     - name: Hello World
-     - on: Echo "Hello World"
+      - name: Run a one-line script
+        run: echo Hello, world!
